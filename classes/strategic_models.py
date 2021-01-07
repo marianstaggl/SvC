@@ -159,7 +159,7 @@ class DQN(StrategicAI):
         
     ''' Rückgabe des Pfads '''
     def get_path(self):
-        return 'C:\\Users\\43681\\Desktop\\PythonLib\\Siedler\\ai_models\\' + self.variante + '.h5'
+        return 'ai_models\\' + self.variante + '.h5'
     
     ''' Speichern des Models '''
     def save(self):
